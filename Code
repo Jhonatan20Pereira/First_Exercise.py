@@ -1,0 +1,6 @@
+nums = [2, 5, 8, 11, 14, 17, 20, 23, 26]
+for n in nums:
+	for b in nums:
+		if n > b:
+			if n + b == 22:
+				print(n, '+', b)
